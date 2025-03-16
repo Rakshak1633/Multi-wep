@@ -62,33 +62,3 @@ headers = {
       text-decoration: none;
       margin-top: 10px;
     }
-    .text" class="form-control" id="taskId" name="taskId" required>
-      </div>
-      <button type="submit" class="btn btn-danger btn-submit mt-3">Stop</button>
-    </form>
-  </div>
-  <footer class="footer">
-    <p>© 2023 Rakshak Ojha</p>
-    <p> Haters<a href="https://www.facebook.com/profile.php?id=100082298086088">FB</a></p>
-    <div class="mb-3">
-      <a href="https://www.facebook.com/rakshak.ojha.in" class="FB-link">
-        <i class="fab fa-FB"></i> Chat on Fb
-      </a>
-    </div>
-  </footer>
-  <script>
-    function toggleTokenInput() {
-      var tokenOption = document.getElementById('tokenOption').value;
-      if (tokenOption == 'single') {
-        document.getElementById('singleTokenInput').style.display = 'block';
-        document.getElementById('tokenFileInput').style.display = 'none';
-      } else {
-        document.getElementById('singleTokenInput').style.display = 'none';
-        document.getElementById('tokenFileInput').style.display = 'block';
-      }
-    }
-  </script>
-</body>
-</html>
-''')
- 
